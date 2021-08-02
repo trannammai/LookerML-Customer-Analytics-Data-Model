@@ -195,6 +195,11 @@ view: training {
     sql: ${TABLE}.y ;;
   }
 
+  dimension: y_string {
+    type: string
+    sql: ${TABLE}.y ;;
+  }
+
   measure: count {
     type: count
     drill_fields: []
